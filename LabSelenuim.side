@@ -1,0 +1,142 @@
+{
+  "id": "9cfd9bbd-99bc-4f09-b4c6-5dd702decacc",
+  "version": "2.0",
+  "name": "LabSelenuim",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "8b1a35a6-fc8b-4e75-b4e4-0870bca88880",
+    "name": "nunit",
+    "commands": [{
+      "id": "f70057c6-6811-4361-844e-40bb0b3d6f15",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aed407bb-1b4b-4688-848d-4cebeea13719",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "808x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d466d7b-d5f2-452f-916b-c5dfccfe7690",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "unit testing"
+    }, {
+      "id": "18e034d3-75b7-4eac-b579-a4c1cbc120c6",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "02794948-13e1-44a8-9c5e-fa3852596551",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.eA0Zlc:nth-child(2) .xIfh4d .fWhgmd",
+      "targets": [
+        ["css=.eA0Zlc:nth-child(2) .xIfh4d .fWhgmd", "css:finder"],
+        ["xpath=//g-scrolling-carousel[@id='_Mc5yYNz8DsSIrwS8nZioDA21']/div/div/div[2]/a/g-inner-card/g-img/div", "xpath:idRelative"],
+        ["xpath=//div[2]/a/g-inner-card/g-img/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14605b1b-0543-43dd-85ec-c2b0772f8e22",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.eA0Zlc:nth-child(2) .xIfh4d .fWhgmd",
+      "targets": [
+        ["css=.eA0Zlc:nth-child(2) .xIfh4d .fWhgmd", "css:finder"],
+        ["xpath=//g-scrolling-carousel[@id='_Mc5yYNz8DsSIrwS8nZioDA21']/div/div/div[2]/a/g-inner-card/g-img/div", "xpath:idRelative"],
+        ["xpath=//div[2]/a/g-inner-card/g-img/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34e9f751-1806-47bb-a66f-47e738097fed",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6.400000095367432)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8212f5db-d3c2-47a1-a432-802ea1a8440a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hlcw0c:nth-child(5) > .g:nth-child(1) .LC20lb",
+      "targets": [
+        ["css=.hlcw0c:nth-child(5) > .g:nth-child(1) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div[4]/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Unit testing - Wikipedia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d977c5a-49ba-42a4-af22-0f4a81eb6a86",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "304107da-2ff2-4171-b781-de9c4d398fda",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "NUnit"
+    }, {
+      "id": "c3f398fa-3d8b-44f2-a0a5-649ebfd86296",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "d03d72a9-929b-4369-8dad-4762b7eccf83",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8b1a35a6-fc8b-4e75-b4e4-0870bca88880"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
